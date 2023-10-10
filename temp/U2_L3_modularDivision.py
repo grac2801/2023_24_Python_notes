@@ -28,6 +28,12 @@ if __name__ == '__main__':
     '''
     
     for rounds in range(1, 100):
-        turn = round % 4
+        turn = rounds % 4
         print("Round: ", rounds, 'Player:', turn)
+        
+        
+    length = int(input('How many minutes long is the movie? '))
+    hours = int(length / 60)
+    minutes = int(length % 60)
+    print('The movie is', hours, 'hours, and', minutes, 'minutes long.')
     
