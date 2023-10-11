@@ -1,0 +1,4 @@
+ogracias
+oct
+gcd
+sqrt
