@@ -11,5 +11,5 @@ if __name__ == '__main__':
     print(f'The square root of', number, 'is', x)
     
     
-    gcd_item = m.gcd(12, 96, 24, 48)
+    gcd_item = m.gcd(12, 96)
     print('The gcd is: \u2192', gcd_item)
