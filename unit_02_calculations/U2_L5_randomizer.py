@@ -41,6 +41,19 @@ if __name__ == '__main__':
     selection = random.choice(['Monday', 'Tuesday', 'Wednesday'])
     print('The selected day is:', selection)
     
+    #===========================================================================
+    # Randomize a password
+    #===========================================================================
+    '''
+    a) A random number between 40 and 50 inclusive
+    b) a random animal from a list of 5
+    c) an even number between 10 and 20
+    output as a password string.
+    '''
+    first = random.randint(40, 50)
+    animal = random.choice(['lion', 'fish', 'zebra', 'octopus', 'cheetah'])
+    second = int(random.random() * 5 + 5) * 2
+    print('output = ' + str(first) + animal + str(second))
     
     
     
