@@ -1,4 +1,0 @@
-ogracias
-oct
-gcd
-sqrt
