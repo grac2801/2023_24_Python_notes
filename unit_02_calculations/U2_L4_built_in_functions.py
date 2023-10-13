@@ -22,7 +22,7 @@ if __name__ == '__main__':
     # print('The square root of', number, 'is:', x)
     
     print('\n\n********** second way to access math module **********')
-    # x = sqrt(number)
+    # x = math.sqrt(number)
     # print('The square root of', number, 'is:', x)
     
     print('\n\n********** greatest common denominator **********')

@@ -4,8 +4,8 @@ from random import randint
 from random import random as rand
 from random import choice
 import random
-from matplotlib import streamplot
-from asyncio import streams
+from ctypes.wintypes import INT
+
 
 
 #imports
@@ -17,6 +17,22 @@ from asyncio import streams
 
 
 if __name__ == '__main__':
+    
+    print('\n\n********** Random() **********')
+    # a number > 0 but < 1
+    print('random:', rand())
+    
+    print('\n\n********** ranges **********')
+    # A number between 10 and 25
+    myNumber = int(rand() * 16) + 10
+    print(myNumber)
+    
+    
+    print('\n\n********** only evens between 1 and 100 **********')
+    even = int((rand() * 50)  + 1 ) * 2
+    print('even', even)
+    
+    print('\n\n********** randint() **********')
     print(randint(1, 5))
     
     print('\n\n********** randomize 1-10 (5 chances) **********')
@@ -49,3 +65,7 @@ if __name__ == '__main__':
     animal = choice(['lion', 'fish', 'zebra', 'octopus'])
     second = int(random.random() * 10 + 1)
     print('output = ' + str(first) + animal + str(second))
+    
+    
+    
+    
