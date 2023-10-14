@@ -4,7 +4,7 @@ from random import randint
 from random import random as rand
 from random import choice
 import random
-from ctypes.wintypes import INT
+
 
 
 
