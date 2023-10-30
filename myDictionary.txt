@@ -4,3 +4,4 @@ unicode
 python
 oscar
 gracias
+lowercasing
