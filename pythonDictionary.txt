@@ -5,3 +5,8 @@ python
 oscar
 gracias
 lowercasingnov
+str
+michael
+mr
+abracadabra
+int
