@@ -5,3 +5,5 @@ python
 oscar
 gracias
 lowercasingnov
+superheroes
+superhero
