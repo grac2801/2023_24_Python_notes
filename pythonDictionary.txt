@@ -1,3 +1,6 @@
 argentina
 str
 michael
+dec
+ogracias
+oct
