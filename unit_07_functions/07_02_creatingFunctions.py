@@ -19,7 +19,7 @@ def flipCoin():
 def python():
     times = int(input('How many times do you wish to print the statement?'))
     for a in range(times):
-        print('I \u2661 Python')
+        print(a, ':', 'I \u2661 Python')
 
 if __name__ == '__main__':
     print('This will print an imaginary coin')
