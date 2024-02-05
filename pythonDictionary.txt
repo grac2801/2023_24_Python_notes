@@ -4,3 +4,17 @@ alice
 carl
 startswith
 col
+paris
+london
+mexico
+popitem
+keyerror
+madrid
+mustang
+toyota
+jason
+luisa
+johnie
+juan
+setdefault
+zip
