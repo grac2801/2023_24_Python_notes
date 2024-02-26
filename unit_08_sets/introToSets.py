@@ -67,7 +67,99 @@ if __name__ == '__main__':
     
     
     
+    print('\n\n')
+    print('===============================================')
+    print('TOPIC: --->', '8. set operators')
+    print('TOPIC: --->', '8a.intersection() or &')
+    print('===============================================')
+    set_a = {1, 2}
+    set_b = {2, 3}
+    print(set_a & set_b)  # only items in common
+    print(set_a.intersection(set_b))
     
+    print('\n\n')
+    print('===============================================')
+    print('TOPIC: --->', '8b.union or |')
+    print('===============================================')
+    print(set_a.union(set_b))
+    print(set_a | set_b)  # list all items in both
+    
+    print('\n\n')
+    print('===============================================')
+    print('TOPIC: --->', '8c.difference or -')
+    print('===============================================')
+    print(set_a - set_b)  # member of first set but not second
+    print(set_a.difference(set_b))
+    print(set_b.difference(set_a))
+    
+    print('\n\n')
+    print('===============================================')
+    print('TOPIC: --->', '8c.symmetric_difference or ^')
+    print('Items in one set or the other, but not both')
+    print('===============================================')
+    print(set_a ^ set_b)
+    print(set_a.symmetric_difference(set_b))
+        
+    print(animals['bipedal'].symmetric_difference(animals['omnivore']))
+
+    print('\n\n')
+    print('===============================================')
+    print('TOPIC: --->', '8d.issubset() or <=')
+    print('===============================================')
+    set_a = {1, 2}
+    set_b = {1, 2, 3}
+    print('a subset of b?', set_a.issubset(set_b))
+    
+    # any set is a subset of itself
+    print('set_a subset of itself?', set_a <= set_a)
+
+    print('\n\n')
+    print('===============================================')
+    print('TOPIC: --->', '8e.issuperset() or >==')
+    print('===============================================')
+    set_a = {1, 2}
+    set_b = {1, 2, 3}
+    print('set_b >= set_a?', set_b >= set_a)
+    
+    print('\n\n')
+    print('===============================================')
+    print('TOPIC: --->', '9.Make bigger data structures')
+    print('===============================================')
+    marxes = ['Groucho', 'Chico', 'Harpo']
+    pythons = ['Chapman', 'Cleese', 'Gillian', 'Jones', 'Palin']
+    stooges = ['Moe', 'Curly', 'Larry']
+    
+    # Make a tuple that contains each list as an element
+    tuple_of_lists = (marxes, pythons, stooges)
+    print(tuple_of_lists)
+    
+    # Make a list that contains each list as an element
+    list_of_lists = [marxes, pythons, stooges]
+    print(list_of_lists)
+    
+    # Make a dictionary that contains each list as an element
+    dict_of_lists = {'marxes': marxes, 'pythons': pythons, 'stooges':stooges}
+    print(dict_of_lists)
+    
+    # only limitation: data types
+    # dict key needs to be immutable --> so list, dict or set can't be
+    # keys for dictionaries, but a tuple can be
+    houses = {(44.79, -93, 285): 'My house',
+           (34.56, 32.98, 87): 'Aunt\'s house'
+        }
+    print(houses)
+    
+
+    # You get add to a set
+    numSet = {-5, 1, 2, 3, 4, 5}
+    print(numSet)
+    numSet.add(7)
+    print(numSet)
+    numSet.remove(3)
+    print(numSet)
+    removedItem = numSet.pop()
+    print(removedItem)
+    print(numSet)
     
     
     
